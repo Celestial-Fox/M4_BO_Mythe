@@ -15,6 +15,14 @@ public class walk : MonoBehaviour
 
     private void Update()
     {
-        playerChaeachter_spriteAnimator.SetBool("moving", playerMovement.CurrentInput != Vector3.zero);
+        if (Input.GetKey(KeyCode.S))
+        {
+            playerChaeachter_spriteAnimator.SetBool("movingS", playerMovement.CurrentInput != Vector3.zero);
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            playerChaeachter_spriteAnimator.SetBool("movingE", playerMovement.CurrentInput != Vector3.zero);
+        }
     }
 }
