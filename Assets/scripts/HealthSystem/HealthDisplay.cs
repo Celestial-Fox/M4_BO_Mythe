@@ -25,7 +25,7 @@ public class HealthDisplay : MonoBehaviour
         health = playerHealth.health;
         maxHealth = playerHealth.maxHealth;
 
-        for (int i = 0; i < 15; i++)
+        for (int i = 0; i < maxHealth; i++)
         {
             if(i < health)
             {

@@ -132,8 +132,8 @@ GameObject:
   m_Component:
   - component: {fileID: 46067443}
   - component: {fileID: 46067442}
-  - component: {fileID: 46067444}
   - component: {fileID: 46067446}
+  - component: {fileID: 46067447}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -208,20 +208,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &46067444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 46067441}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89c32177958f9d94d8a96c1f1e158884, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerHealth: {fileID: 1839791324}
-  damage: 20
 --- !u!61 &46067446
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -254,7 +240,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.017228037, y: -0.021423101}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -265,10 +251,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.1264925, y: 1.2056618}
   m_EdgeRadius: 0
-<<<<<<< Updated upstream:Assets/Scenes/devTestScene.unity
-=======
 --- !u!114 &46067447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -789,7 +773,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1145683068}
   m_CullTransparentMesh: 1
->>>>>>> Stashed changes:Assets/Scenes/devTestScene(joey).unity
 --- !u!1 &1839791318
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,18 +784,11 @@ GameObject:
   - component: {fileID: 1839791322}
   - component: {fileID: 1839791321}
   - component: {fileID: 1839791319}
-<<<<<<< Updated upstream:Assets/Scenes/devTestScene.unity
-  - component: {fileID: 1839791323}
-  - component: {fileID: 1839791324}
-=======
   - component: {fileID: 1839791326}
-  - component: {fileID: 1839791327}
->>>>>>> Stashed changes:Assets/Scenes/devTestScene(joey).unity
   - component: {fileID: 1839791325}
-  - component: {fileID: 1839791328}
   m_Layer: 0
-  m_Name: Player
-  m_TagString: Untagged
+  m_Name: PlayerCube
+  m_TagString: player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -904,49 +880,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1839791318}
   serializedVersion: 2
-<<<<<<< Updated upstream:Assets/Scenes/devTestScene.unity
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3, y: 4.41, z: 0}
-=======
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -83.3615, y: 0, z: 0}
->>>>>>> Stashed changes:Assets/Scenes/devTestScene(joey).unity
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2046560538}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 231666471}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream:Assets/Scenes/devTestScene.unity
---- !u!114 &1839791323
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1839791318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3cb4591b832d9f4abd3df6f762f8b49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: 8
---- !u!114 &1839791324
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1839791318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43805328f9e07594caac01cf3814f1e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 100
-=======
->>>>>>> Stashed changes:Assets/Scenes/devTestScene(joey).unity
 --- !u!61 &1839791325
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -992,8 +933,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
-<<<<<<< Updated upstream:Assets/Scenes/devTestScene.unity
-=======
 --- !u!114 &1839791326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1010,43 +949,6 @@ MonoBehaviour:
   maxHealth: 15
   player: {fileID: 1839791321}
   PlayerMovement: {fileID: 0}
---- !u!114 &1839791327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1839791318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1623188ebc2c73b49919a277ba0bfde8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 15
-  emptyDroplet: {fileID: 21300000, guid: d9c8413532d894d43be583d6d9896a14, type: 3}
-  fullDroplet: {fileID: 21300000, guid: d65cf90fc9134dd41ba24b438b38ab5b, type: 3}
-  droplets:
-  - {fileID: 583809022}
-  - {fileID: 659481943}
-  - {fileID: 246054391}
-  - {fileID: 1145683070}
-  - {fileID: 2144291075}
-  playerHealth: {fileID: 1839791326}
---- !u!114 &1839791328
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1839791318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3cb4591b832d9f4abd3df6f762f8b49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: 8
->>>>>>> Stashed changes:Assets/Scenes/devTestScene(joey).unity
 --- !u!1 &2046560535
 GameObject:
   m_ObjectHideFlags: 0
@@ -1218,7 +1120,7 @@ CanvasRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1839791322}
+  - {fileID: 231666471}
   - {fileID: 46067443}
   - {fileID: 1124432341}
   - {fileID: 742192139}
