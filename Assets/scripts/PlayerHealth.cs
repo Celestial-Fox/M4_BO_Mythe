@@ -5,17 +5,16 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-<<<<<<< Updated upstream:Assets/scripts/PlayerHealth.cs
     public int health;
     public int maxHealth = 100;
 
-=======
+
     public float health;
     public float maxHealth = 100;
 
     public SpriteRenderer player;
     public playerMovement PlayerMovement;
->>>>>>> Stashed changes:Assets/scripts/HealthSystem/PlayerHealth.cs
+
     void Start()
     {
         health = maxHealth;
