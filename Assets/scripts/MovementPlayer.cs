@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class MovementPlayer : MonoBehaviour
@@ -15,15 +16,10 @@ public class MovementPlayer : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
-
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
         movementDirection = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-    }
-
-    void FixedUpdate()
-    {
+        Debug.Log($"horizontal: {Input.GetAxis("Horizontal")}, vertical: {Input.GetAxis("Vertical")}");
         rb.velocity = movementDirection * movementSpeed;
     }
 }

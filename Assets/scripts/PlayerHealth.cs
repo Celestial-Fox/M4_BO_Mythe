@@ -1,12 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
+using TopDown.Movement;
 using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
+<<<<<<< Updated upstream:Assets/scripts/PlayerHealth.cs
     public int health;
     public int maxHealth = 100;
 
+=======
+    public float health;
+    public float maxHealth = 100;
+
+    public SpriteRenderer player;
+    public playerMovement PlayerMovement;
+>>>>>>> Stashed changes:Assets/scripts/HealthSystem/PlayerHealth.cs
     void Start()
     {
         health = maxHealth;
@@ -17,7 +26,8 @@ public class PlayerHealth : MonoBehaviour
         health -= amount;
         if (health < 0)
         {
-            Destroy(gameObject);
+            player.enabled = false;
+            PlayerMovement.enabled = false;
         }
 
     }
