@@ -6,16 +6,11 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
 
-    public int health;
-    public int maxHealth = 100;
-
-
-
     public float health;
     public float maxHealth = 100;
 
     public SpriteRenderer player;
-    public playerMovement PlayerMovement;
+    public MovementPlayer PlayerMovement;
 
 
 

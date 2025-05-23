@@ -202,7 +202,7 @@ Transform:
   m_GameObject: {fileID: 46067441}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -95.3, y: 5.5753, z: 0}
+  m_LocalPosition: {x: 294.06152, y: 5.5753, z: 0}
   m_LocalScale: {x: 1.5991831, y: 11.824385, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -262,11 +262,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 46067441}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8482053034a9ba74b8981ee622c061b4, type: 3}
+  m_Script: {fileID: 11500000, guid: 89c32177958f9d94d8a96c1f1e158884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: {fileID: 1839791326}
-  damage: 1
+  playerHealth: {fileID: 0}
+  damage: 5
 --- !u!1 &231666470
 GameObject:
   m_ObjectHideFlags: 0
@@ -786,6 +786,8 @@ GameObject:
   - component: {fileID: 1839791319}
   - component: {fileID: 1839791326}
   - component: {fileID: 1839791325}
+  - component: {fileID: 1839791327}
+  - component: {fileID: 1839791328}
   m_Layer: 0
   m_Name: PlayerCube
   m_TagString: player
@@ -881,7 +883,7 @@ Transform:
   m_GameObject: {fileID: 1839791318}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -83.3615, y: 0, z: 0}
+  m_LocalPosition: {x: 306, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -942,13 +944,49 @@ MonoBehaviour:
   m_GameObject: {fileID: 1839791318}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba38808f7a2c19b4ca78925774b10d2d, type: 3}
+  m_Script: {fileID: 11500000, guid: a3cb4591b832d9f4abd3df6f762f8b49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 8
+--- !u!114 &1839791327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839791318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43805328f9e07594caac01cf3814f1e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  maxHealth: 15
+  maxHealth: 5
   player: {fileID: 1839791321}
-  PlayerMovement: {fileID: 0}
+  PlayerMovement: {fileID: 1839791326}
+--- !u!114 &1839791328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839791318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b2ba2500893b8e4d8f1d37f47aff0e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 0
+  emptyDroplet: {fileID: 21300000, guid: d9c8413532d894d43be583d6d9896a14, type: 3}
+  fullDroplet: {fileID: 21300000, guid: d65cf90fc9134dd41ba24b438b38ab5b, type: 3}
+  droplets:
+  - {fileID: 583809022}
+  - {fileID: 659481943}
+  - {fileID: 246054391}
+  - {fileID: 1145683070}
+  - {fileID: 2144291075}
+  playerHealth: {fileID: 1839791327}
 --- !u!1 &2046560535
 GameObject:
   m_ObjectHideFlags: 0

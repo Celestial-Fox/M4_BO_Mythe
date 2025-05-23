@@ -13,19 +13,17 @@ public class HealthDisplay : MonoBehaviour
     public Image[] droplets;
 
     public PlayerHealth playerHealth;
-    // Start is called before the first frame update
+    
     void Start()
     {
         
     }
-
-    // Update is called once per frame
     void Update()
     {
         health = playerHealth.health;
         maxHealth = playerHealth.maxHealth;
 
-        for (int i = 0; i < maxHealth; i++)
+        for (int i = 0; i < 15; i++)
         {
             if(i < health)
             {
