@@ -13,19 +13,20 @@ public class HealthDisplay : MonoBehaviour
     public Image[] droplets;
 
     public PlayerHealth playerHealth;
-    
-    void Start()
-    {
-        
-    }
+
     void Update()
     {
         health = playerHealth.health;
         maxHealth = playerHealth.maxHealth;
 
-        for (int i = 0; i < 15; i++)
+        int displayDropletCount = droplets.Length;
+        float healthPerDroplet = maxHealth / displayDropletCount;
+
+        for (int i = 0; i < displayDropletCount; i++)
         {
-            if(i < health)
+            float threshold = (i + 1) * healthPerDroplet;
+
+            if (health >= threshold)
             {
                 droplets[i].sprite = fullDroplet;
             }
@@ -34,14 +35,7 @@ public class HealthDisplay : MonoBehaviour
                 droplets[i].sprite = emptyDroplet;
             }
 
-            if (i < maxHealth)
-            {
-                droplets[i].enabled = true;
-            }
-            else
-            {
-                droplets[i].enabled = false;
-            }
+            droplets[i].enabled = true;
         }
     }
 }

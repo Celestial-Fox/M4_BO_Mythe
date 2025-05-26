@@ -961,7 +961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  maxHealth: 5
+  maxHealth: 15
   player: {fileID: 1839791321}
   PlayerMovement: {fileID: 1839791326}
 --- !u!114 &1839791328
