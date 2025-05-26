@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent (typeof(Animator))]
 public class walk : MonoBehaviour
 {
-    [SerializeField] private movement playerMovement;
+    [SerializeField] private Movement playerMovement;
     private Animator playerChaeachter_spriteAnimator;
 
     private void Awake()
@@ -15,14 +15,6 @@ public class walk : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.S))
-        {
-            playerChaeachter_spriteAnimator.SetBool("movingS", playerMovement.CurrentInput != Vector3.zero);
-        }
-
-        if (Input.GetKey(KeyCode.D))
-        {
-            playerChaeachter_spriteAnimator.SetBool("movingE", playerMovement.CurrentInput != Vector3.zero);
-        }
+        
     }
 }
