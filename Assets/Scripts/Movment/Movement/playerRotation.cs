@@ -13,7 +13,7 @@ namespace TopDown.Movement
         [SerializeField] private Transform legs;
 
         [Header("movement Refrence")]
-        [SerializeField] private movement movementPlayer;
+        [SerializeField] private Movement movementPlayer;
 
         //Determine mouse position and look that way
         private void OnLook(InputValue value)
@@ -22,11 +22,11 @@ namespace TopDown.Movement
             lookAt(torso, mousePosition);
         }
 
-        private void Update()
+        /*private void Update()
         {
             //Rotate legs to face movement direction
             Vector3 legsLookPoint = transform.position + new Vector3(movementPlayer.CurrentInput.x, movementPlayer.CurrentInput.y);
             lookAt(legs, legsLookPoint);
-        }
+        }*/
     }
 }
