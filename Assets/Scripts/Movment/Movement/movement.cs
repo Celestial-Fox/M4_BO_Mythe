@@ -9,7 +9,7 @@ namespace TopDown.Movement
         [SerializeField] private float movementSpeed;
         private Rigidbody2D body;
         private Vector2 movement;
-        private Animator animator;
+        //private Animator animator;
 
         //Previously used code
         //protected Vector3 currentInput;
@@ -18,7 +18,7 @@ namespace TopDown.Movement
         private void Awake()
         {
             body = GetComponent<Rigidbody2D>();
-            animator = GetComponent<Animator>();
+            //animator = GetComponent<Animator>();
         }
 
         private void Update()
@@ -26,9 +26,9 @@ namespace TopDown.Movement
             movement.x = Input.GetAxisRaw("Horizontal");
             movement.y = Input.GetAxisRaw("Vertical");
 
-            animator.SetFloat("Horizontal", movement.x);
-            animator.SetFloat("Vertical", movement.y);
-            animator.SetFloat("Speed", movement.sqrMagnitude);
+            //animator.SetFloat("Horizontal", movement.x);
+            //animator.SetFloat("Vertical", movement.y);
+            //animator.SetFloat("Speed", movement.sqrMagnitude);
         }
 
         private void FixedUpdate()
