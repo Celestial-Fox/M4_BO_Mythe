@@ -13,8 +13,6 @@ public class BatFollow : MonoBehaviour
     {
         
     }
-
-    // Update is called once per frame
     void Update()
     {
         distance = Vector2.Distance(transform.position, Player.transform.position);
