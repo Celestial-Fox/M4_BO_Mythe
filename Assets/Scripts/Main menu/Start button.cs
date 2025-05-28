@@ -7,8 +7,10 @@ public class Startbutton : MonoBehaviour
 {
     public GameObject camera1;
     public GameObject camera2;
+    public GameObject camera3;
     public GameObject MainMenu;
     public GameObject SettingsMenu;
+    public GameObject Creditsmenu;
     public void StartGame()
     {
         SceneManager.LoadScene("Steale's Scene");
@@ -30,5 +32,13 @@ public class Startbutton : MonoBehaviour
         camera2.SetActive(true);
         MainMenu.SetActive(false);
         SettingsMenu.SetActive(true);
+    }
+
+    public void Credits()
+    {
+        camera1.SetActive(false);
+        camera3.SetActive(true);
+        MainMenu.SetActive(false);
+        Creditsmenu.SetActive(true);
     }
 }
