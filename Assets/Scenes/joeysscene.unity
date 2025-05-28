@@ -926,6 +926,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1 &1839791318
 GameObject:
   m_ObjectHideFlags: 0
@@ -978,6 +979,8 @@ Rigidbody2D:
 --- !u!212 &1839791321
 SpriteRenderer:
 =======
+=======
+>>>>>>> Stashed changes
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -998,11 +1001,15 @@ SpriteRenderer:
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1145683071
 CanvasRenderer:
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   m_GameObject: {fileID: 1839791318}
   m_Enabled: 1
@@ -1051,10 +1058,16 @@ CanvasRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1839791322
+=======
+  m_GameObject: {fileID: 1145683068}
+  m_CullTransparentMesh: 1
+--- !u!4 &1839791322 stripped
+>>>>>>> Stashed changes
 Transform:
   m_CorrespondingSourceObject: {fileID: 2370610427111559925, guid: b6f6579127a7e8d4594816806e0c8a59, type: 3}
   m_PrefabInstance: {fileID: 6759502082196470565}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   m_GameObject: {fileID: 1839791318}
   serializedVersion: 2
@@ -1167,6 +1180,9 @@ MonoBehaviour:
 =======
 --- !u!1 &2144291073
 >>>>>>> Stashed changes
+=======
+--- !u!1 &2144291073
+>>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1175,23 +1191,30 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - component: {fileID: 2046560538}
   - component: {fileID: 2046560537}
   - component: {fileID: 2046560536}
   m_Layer: 0
   m_Name: Camera
 =======
+=======
+>>>>>>> Stashed changes
   - component: {fileID: 2144291074}
   - component: {fileID: 2144291076}
   - component: {fileID: 2144291075}
   m_Layer: 5
   m_Name: droplets (4)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 --- !u!81 &2046560536
 AudioListener:
@@ -1269,6 +1292,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &2144291074 stripped
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!224 &2144291074
 >>>>>>> Stashed changes
 RectTransform:
@@ -1457,13 +1482,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerCube
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_SourcePrefab: {fileID: 100100000, guid: 44d29ddd80b5cee45a08615e5238a51a, type: 3}
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: b6f6579127a7e8d4594816806e0c8a59, type: 3}
+>>>>>>> Stashed changes
 =======
   m_SourcePrefab: {fileID: 100100000, guid: b6f6579127a7e8d4594816806e0c8a59, type: 3}
 >>>>>>> Stashed changes
