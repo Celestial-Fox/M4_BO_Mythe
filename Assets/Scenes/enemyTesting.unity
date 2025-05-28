@@ -216,10 +216,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 124382863}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb3bad42bdff10d45a60ee4cdcf032a1, type: 3}
+  m_Script: {fileID: 11500000, guid: 3dbcf303aab495f408219d1179e968de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  player: {fileID: 429107560}
+  speed: 0
 --- !u!1 &132445894
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,7 +449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1796983340}
   - component: {fileID: 1796983339}
-  - component: {fileID: 1796983338}
+  - component: {fileID: 1796983341}
   m_Layer: 0
   m_Name: le bat
   m_TagString: Untagged
@@ -456,21 +457,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1796983338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1796983337}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10aa362f7b307484a80aac6e4e6bbba1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 429107560}
-  speed: 1
-  distanceBetween: 0
 --- !u!212 &1796983339
 SpriteRenderer:
   m_ObjectHideFlags: 0

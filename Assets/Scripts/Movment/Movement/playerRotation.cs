@@ -12,8 +12,8 @@ namespace TopDown.Movement
         [SerializeField] private Transform torso;
         [SerializeField] private Transform legs;
 
-        [Header("movement Refrence")]
-        [SerializeField] private Movement movementPlayer;
+        //[Header("movement Refrence")]
+        //[SerializeField] private Movement movementPlayer;
 
         //Determine mouse position and look that way
         private void OnLook(InputValue value)

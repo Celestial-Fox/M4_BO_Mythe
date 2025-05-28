@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using TopDown.Movement;
 
-
-
 public class PlayerHealth : MonoBehaviour
 {
     public float health;

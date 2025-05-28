@@ -11,7 +11,7 @@ namespace TopDown.Shooting
         [Header("Refrences")]
         [SerializeField] private GameObject bulletPrefab;
         [SerializeField] private Transform firepoint;
-        [SerializeField] private Animator muzzleFlashAnimator;
+        //[SerializeField] private Animator muzzleFlashAnimator;
 
         //shoot point
 
@@ -26,7 +26,7 @@ namespace TopDown.Shooting
             {
                 GameObject bullet = Instantiate(bulletPrefab, firepoint.position, firepoint.rotation, null);
                 bullet.GetComponent<Projectile>().ShootBullet(firepoint);
-                muzzleFlashAnimator.SetTrigger("Shoot");
+                //muzzleFlashAnimator.SetTrigger("Shoot");
                 Debug.Log("Shot!");
                 cooldownTimer = 0;
             }
