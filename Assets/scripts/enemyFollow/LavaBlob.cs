@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class LavaBlob : MonoBehaviour
 {
-    private Transform target;
-    private float speed;
+    [SerializeField] private Transform target;
+    [SerializeField] private float speed;
     // Start is called before the first frame update
     void Start()
     {
