@@ -19,7 +19,6 @@ public class MovementPlayer : MonoBehaviour
     private void Update()
     {
         movementDirection = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-        Debug.Log($"horizontal: {Input.GetAxis("Horizontal")}, vertical: {Input.GetAxis("Vertical")}");
         rb.velocity = movementDirection * movementSpeed;
     }
 }
