@@ -2,14 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TopDown.Movement;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
     public float health;
     public float maxHealth = 100;
 
-    public SpriteRenderer player;
-    public MovementPlayer PlayerMovement;
+    [SerializeField] private GameObject player;
+    //[SerializeField] private MovementPlayer PlayerMovement;
 
     void Start()
     {
@@ -21,8 +22,7 @@ public class PlayerHealth : MonoBehaviour
         health -= amount;
         if (health <= 0)
         {
-            player.enabled = false;
-            PlayerMovement.enabled = false;
+            SceneManager.LoadScene("GameOver");
         }
 
     }

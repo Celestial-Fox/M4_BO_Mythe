@@ -23,7 +23,7 @@ namespace TopDown.Shooting
             transform.position = shootPoint.position;
             transform.rotation = shootPoint.rotation;
             gameObject.SetActive(true);
-            body.AddForce(-transform.up, ForceMode2D.Impulse);
+            body.AddForce(-transform.up * speed, ForceMode2D.Impulse);
         }
 
         private void Update()
