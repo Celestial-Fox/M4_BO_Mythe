@@ -9,6 +9,7 @@ public class HealthDisplay : MonoBehaviour
     public float maxHealth;
 
     public Sprite emptyDroplet;
+    public Sprite halfDroplet;
     public Sprite fullDroplet;
     public Image[] droplets;
 
@@ -19,16 +20,21 @@ public class HealthDisplay : MonoBehaviour
         health = playerHealth.health;
         maxHealth = playerHealth.maxHealth;
 
-        int displayDropletCount = droplets.Length;
-        float healthPerDroplet = maxHealth / displayDropletCount;
+        int dropletCount = droplets.Length;
+        float healthPerDroplet = maxHealth / dropletCount;
 
-        for (int i = 0; i < displayDropletCount; i++)
+        for (int i = 0; i < dropletCount; i++)
         {
-            float threshold = (i + 1) * healthPerDroplet;
+            float lowerBound = i * healthPerDroplet;
+            float upperBound = (i + 1) * healthPerDroplet;
 
-            if (health >= threshold)
+            if (health >= upperBound)
             {
                 droplets[i].sprite = fullDroplet;
+            }
+            else if (health > lowerBound)
+            {
+                droplets[i].sprite = halfDroplet;
             }
             else
             {
