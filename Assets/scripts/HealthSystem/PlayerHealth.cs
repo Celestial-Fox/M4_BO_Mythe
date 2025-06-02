@@ -26,4 +26,8 @@ public class PlayerHealth : MonoBehaviour
         }
 
     }
+    public void Addhealth(int amount)
+    {
+        health += amount;
+    }
 }
