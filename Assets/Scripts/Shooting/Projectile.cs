@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 namespace TopDown.Shooting
 {
@@ -23,7 +24,7 @@ namespace TopDown.Shooting
             transform.position = shootPoint.position;
             transform.rotation = shootPoint.rotation;
             gameObject.SetActive(true);
-            body.AddForce(-transform.up, ForceMode2D.Impulse);
+            body.AddForce(-transform.up * speed, ForceMode2D.Impulse);
         }
 
         private void Update()
@@ -32,7 +33,15 @@ namespace TopDown.Shooting
             if (lifeTimer >= lifetime)
             {
                 gameObject.SetActive(false);
+                
             }
+            
         }
+        private void OnCollisionEnter2D(Collision2D collision)
+        {
+            Destroy(gameObject);
+        }
+
+
     }
 }
