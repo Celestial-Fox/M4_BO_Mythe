@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23e360a07e4253d47b4abbc5a6859a19, type: 3}
-  m_Name: Dennis
+  m_Name: Godding
   m_EditorClassIdentifier: 
-  subjectname: Dennis
-  borderColor: {r: 1, g: 1, b: 1, a: 1}
-  innerColor: {r: 1, g: 1, b: 1, a: 1}
-  face: {fileID: 698935453992483402, guid: 5dee504085dde9c48a59615dd7073d7b, type: 3}
+  subjectname: ???
+  borderColor: {r: 0.15076533, g: 0.23163162, b: 0.4566037, a: 1}
+  innerColor: {r: 0.13253826, g: 0.14490338, b: 0.3207547, a: 1}
+  face: {fileID: 21300000, guid: c7ae6947d9dcd8143a166809fdbc64dd, type: 3}
