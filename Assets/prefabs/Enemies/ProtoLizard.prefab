@@ -109,7 +109,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 7
 --- !u!114 &8106063412417793510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pushForce: 10
   rig: {fileID: 7650777248965109749}
-  health: 100
+  health: 20
 --- !u!212 &1861930105205707467
 SpriteRenderer:
   m_ObjectHideFlags: 0

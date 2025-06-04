@@ -27,12 +27,9 @@ public class PlayerHealth : MonoBehaviour
         }
 
     }
-<<<<<<< HEAD
     public void Addhealth(int amount)
     {
         health += amount;
     }
-=======
 
->>>>>>> Steale
 }
