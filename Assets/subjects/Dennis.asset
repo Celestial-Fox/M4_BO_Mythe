@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e360a07e4253d47b4abbc5a6859a19, type: 3}
+  m_Name: Dennis
+  m_EditorClassIdentifier: 
+  subjectname: Dennis
+  borderColor: {r: 0, g: 0, b: 0, a: 0}
+  innerColor: {r: 0, g: 0, b: 0, a: 0}
+  face: {fileID: 698935453992483402, guid: 5dee504085dde9c48a59615dd7073d7b, type: 3}

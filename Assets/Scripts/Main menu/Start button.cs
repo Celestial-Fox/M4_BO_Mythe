@@ -13,7 +13,7 @@ public class Startbutton : MonoBehaviour
     public GameObject Creditsmenu;
     public void StartGame()
     {
-        SceneManager.LoadScene("Steale's Scene");
+        SceneManager.LoadScene("Intro");
     }
 
     public void Gooner()
