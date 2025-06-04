@@ -1,16 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 using UnityEngine.SceneManagement;
 
-public class GameOver : MonoBehaviour
+public class MyButtonHandler : MonoBehaviour
 {
-    [SerializeField] GameObject mainMenu;
-    private void Retry()
+    [SerializeField] Button StartButton;
+
+    private void Start()
     {
-        //SceneManager.LoadScene("Steale's Scene");
-        Debug.Log("Button was clicked!");
+        StartButton.onClick.AddListener(ClickStartButton);
     }
 
-    
+    private void ClickStartButton()
+    {
+        SceneManager.LoadScene("Julian scene");
+    }
 }

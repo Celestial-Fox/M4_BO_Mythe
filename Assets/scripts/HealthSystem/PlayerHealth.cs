@@ -12,6 +12,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private GameObject player;
     //[SerializeField] private MovementPlayer PlayerMovement;
 
+    
     void Start()
     {
         health = maxHealth;
@@ -26,4 +27,5 @@ public class PlayerHealth : MonoBehaviour
         }
 
     }
+
 }

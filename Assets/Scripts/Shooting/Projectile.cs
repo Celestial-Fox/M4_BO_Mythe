@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 namespace TopDown.Shooting
 {
@@ -32,7 +33,15 @@ namespace TopDown.Shooting
             if (lifeTimer >= lifetime)
             {
                 gameObject.SetActive(false);
+                
             }
+            
         }
+        private void OnCollisionEnter2D(Collision2D collision)
+        {
+            Destroy(gameObject);
+        }
+
+
     }
 }
