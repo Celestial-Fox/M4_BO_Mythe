@@ -10,4 +10,6 @@ public class subject : ScriptableObject
     public Color borderColor;
     public Color innerColor;
     public Sprite face;
+   // public Color nameplate;
+    //public Color faceplate;
 }

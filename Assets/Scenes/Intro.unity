@@ -381,8 +381,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.1765, y: 1}
-  m_SizeDelta: {x: 620.36, y: 100}
+  m_AnchoredPosition: {x: 10.587, y: 1}
+  m_SizeDelta: {x: 605.53, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &570998831
 MonoBehaviour:
@@ -667,7 +667,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -249, y: 70}
+  m_AnchoredPosition: {x: -246.9, y: 76.9}
   m_SizeDelta: {x: 132.91, y: 41.37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &940393922
@@ -1108,35 +1108,109 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueSegments:
-  - dialogue: Damn this sucks...
+  - dialogue: Damn this sucks... Getting laid off at a time like this...!
     speaker: {fileID: 11400000, guid: 16bf4eb93627f4244a286ac28befabb0, type: 2}
-  - dialogue: Getting laid off at a time like this...!
+  - dialogue: Everything is spinning... I need a walk. And after that another drink!
     speaker: {fileID: 11400000, guid: 16bf4eb93627f4244a286ac28befabb0, type: 2}
-  - dialogue: Everything is spinning... I need a walk.
-    speaker: {fileID: 11400000, guid: 16bf4eb93627f4244a286ac28befabb0, type: 2}
-  - dialogue: And after that more alcohol!
-    speaker: {fileID: 11400000, guid: 16bf4eb93627f4244a286ac28befabb0, type: 2}
-  - dialogue: 'The beach... I''m lucky it''s nearby... '
-    speaker: {fileID: 11400000, guid: 16bf4eb93627f4244a286ac28befabb0, type: 2}
-  - dialogue: Maybe I should sit here a while and think...
+  - dialogue: The beach... I'm lucky it's nearby... Maybe I should sit here a while
+      and think...
     speaker: {fileID: 11400000, guid: 16bf4eb93627f4244a286ac28befabb0, type: 2}
   - dialogue: What are all the things I still have...?
     speaker: {fileID: 11400000, guid: 16bf4eb93627f4244a286ac28befabb0, type: 2}
-  - dialogue: Friend...? Not really... Familie... Only if a long lost cousin counts...
-    speaker: {fileID: 11400000, guid: 16bf4eb93627f4244a286ac28befabb0, type: 2}
-  - dialogue: Fuck... This is the worst... I don't even have a job now.
-    speaker: {fileID: 11400000, guid: 16bf4eb93627f4244a286ac28befabb0, type: 2}
+  - dialogue: Friend...? Not really... Family... Only if a long lost cousin counts...
+    speaker: {fileID: 11400000, guid: 7955472589cb2444984caa8545d31073, type: 2}
+  - dialogue: And now I don't even have a job anymore...! Damn...
+    speaker: {fileID: 11400000, guid: 7955472589cb2444984caa8545d31073, type: 2}
   - dialogue: Screw it I'm ending it all!
+    speaker: {fileID: 11400000, guid: 7955472589cb2444984caa8545d31073, type: 2}
+  - dialogue: 'Huh? What is that...? '
     speaker: {fileID: 11400000, guid: 16bf4eb93627f4244a286ac28befabb0, type: 2}
-  - dialogue: Huh? What... Is that a bottle?
+  - dialogue: Hawaii...? Treasure? Hmmm... Hmmmm!
+    speaker: {fileID: 11400000, guid: 2fcbbebfc3395ff449324a9eaa23fe7a, type: 2}
+  - dialogue: I've got it! I'm a genius! I'll go to Hawaii and steal the treasure.
+    speaker: {fileID: 11400000, guid: 2fcbbebfc3395ff449324a9eaa23fe7a, type: 2}
+  - dialogue: This plan can't go wrong! Either I steal the treasure and become rich
+      or I'll die trying!
+    speaker: {fileID: 11400000, guid: 81c3181df51b96e4d91ca308cead3823, type: 2}
+  - dialogue: What have I got to lose? Nothing!
+    speaker: {fileID: 11400000, guid: 81c3181df51b96e4d91ca308cead3823, type: 2}
+  - dialogue: I'll use my last bit of money and buy a plane ticket to Hawaii and
+      rent a boat to the island there.
+    speaker: {fileID: 11400000, guid: 81c3181df51b96e4d91ca308cead3823, type: 2}
+  - dialogue: Ladies and gentleman this is your captain speaking.
+    speaker: {fileID: 11400000, guid: bed7280bf2fee7042a2ca84dd150d167, type: 2}
+  - dialogue: We have reached cruising altitude, we will arrive in Hawaii in about
+      12 hours.
+    speaker: {fileID: 11400000, guid: bed7280bf2fee7042a2ca84dd150d167, type: 2}
+  - dialogue: Please enjoy the flight!
+    speaker: {fileID: 11400000, guid: bed7280bf2fee7042a2ca84dd150d167, type: 2}
+  - dialogue: Damn... Flying while hung over is not a good idea... I think I'm going
+      to puke!
     speaker: {fileID: 11400000, guid: 16bf4eb93627f4244a286ac28befabb0, type: 2}
-  - dialogue: Hawaii...? Treasure?
+  - dialogue: Dear passengers this is your captain speaking, please fasten your seatbelt
+      we're entering a zone with a lot of turbulence.
+    speaker: {fileID: 11400000, guid: bed7280bf2fee7042a2ca84dd150d167, type: 2}
+  - dialogue: Our staff will pause their duty untill it has passed.
+    speaker: {fileID: 11400000, guid: bed7280bf2fee7042a2ca84dd150d167, type: 2}
+  - dialogue: Ugh... No...! I wish I was dead...
     speaker: {fileID: 11400000, guid: 16bf4eb93627f4244a286ac28befabb0, type: 2}
-  - dialogue: Hmm... Hmmmmm...!
+  - dialogue: Why... why did the plane have to shake for 10 hours... I don't think
+      I've puked more in my life...
     speaker: {fileID: 11400000, guid: 16bf4eb93627f4244a286ac28befabb0, type: 2}
+  - dialogue: Here is the boat, just an hour or two of rowing and I'm there.
+    speaker: {fileID: 11400000, guid: 16bf4eb93627f4244a286ac28befabb0, type: 2}
+  - dialogue: Finally, I'm here... now if I were treasure where would I be... Maybe
+      in the vulcano?
+    speaker: {fileID: 11400000, guid: 16bf4eb93627f4244a286ac28befabb0, type: 2}
+  - dialogue: Huh?! What the...!
+    speaker: {fileID: 11400000, guid: ba75846cf578fb7489aecd92cc3c4a49, type: 2}
+  - dialogue: Greetings Ben... I've been expecting you mortal.
+    speaker: {fileID: 11400000, guid: 37fc0de0d9978cc40891f56798d1beea, type: 2}
+  - dialogue: Ben... Who is Ben, my name is Dennis...!
+    speaker: {fileID: 11400000, guid: ba75846cf578fb7489aecd92cc3c4a49, type: 2}
+  - dialogue: Hm? Dennis... Dennis... Oh Dennis right right... Ahem Greetings Dennis!
+    speaker: {fileID: 11400000, guid: 37fc0de0d9978cc40891f56798d1beea, type: 2}
+  - dialogue: You've come here with malicious intent, no?
+    speaker: {fileID: 11400000, guid: 37fc0de0d9978cc40891f56798d1beea, type: 2}
+  - dialogue: I... I...
+    speaker: {fileID: 11400000, guid: ba75846cf578fb7489aecd92cc3c4a49, type: 2}
+  - dialogue: 'No need to fret my dear Dennis, for you see our interest are aligned. '
+    speaker: {fileID: 11400000, guid: 37fc0de0d9978cc40891f56798d1beea, type: 2}
+  - dialogue: The treasure you seek is something I seek as wel. And I sent you that
+      newspaper for a reason.
+    speaker: {fileID: 11400000, guid: 37fc0de0d9978cc40891f56798d1beea, type: 2}
+  - dialogue: That... That was you?
+    speaker: {fileID: 11400000, guid: ba75846cf578fb7489aecd92cc3c4a49, type: 2}
+  - dialogue: Indeed, I can hear the sound of all people near the ocean. And I know
+      your deepest desires...
+    speaker: {fileID: 11400000, guid: 37fc0de0d9978cc40891f56798d1beea, type: 2}
+  - dialogue: 'So I have a proposal for you, you get me that treasure and I... Will
+      give you what you want more than anything else. '
+    speaker: {fileID: 11400000, guid: 37fc0de0d9978cc40891f56798d1beea, type: 2}
+  - dialogue: What I desire most?
+    speaker: {fileID: 11400000, guid: ba75846cf578fb7489aecd92cc3c4a49, type: 2}
+  - dialogue: 'You heard me... All you have to do is go in to the vulcano, fight
+      Pele and take her treasure. '
+    speaker: {fileID: 11400000, guid: 37fc0de0d9978cc40891f56798d1beea, type: 2}
+  - dialogue: After that you just bring it here and then you will get your reward,
+      understand that alright, my dear Dennis...?
+    speaker: {fileID: 11400000, guid: 37fc0de0d9978cc40891f56798d1beea, type: 2}
+  - dialogue: I... I understand... I'll...! I'll do it! You can count on me!
+    speaker: {fileID: 11400000, guid: ba75846cf578fb7489aecd92cc3c4a49, type: 2}
+  - dialogue: Wonderful, you've made the right choice. Here a gift for my new soldier.
+    speaker: {fileID: 11400000, guid: 37fc0de0d9978cc40891f56798d1beea, type: 2}
+  - dialogue: With this watergun you can take on anything on this island, including
+      Pele herself. I've quite out done myself with this one.
+    speaker: {fileID: 11400000, guid: 37fc0de0d9978cc40891f56798d1beea, type: 2}
+  - dialogue: Now what are you waiting for? Get out there and get us that treasure.
+    speaker: {fileID: 11400000, guid: 37fc0de0d9978cc40891f56798d1beea, type: 2}
+  - dialogue: Right! Leave it to me!
+    speaker: {fileID: 11400000, guid: ba75846cf578fb7489aecd92cc3c4a49, type: 2}
   Speakerfacedisplay: {fileID: 1061576363}
   Boxinner: {fileID: 2022324790}
   Boxouter: {fileID: 2022324790}
+  faceplate: {fileID: 940393922}
+  nameplate: {fileID: 863333016}
   Skipthing: {fileID: 1368688264}
   intro1: {fileID: 347330406}
   intro2: {fileID: 1229898259}
@@ -1146,7 +1220,7 @@ MonoBehaviour:
   intro6: {fileID: 938768256}
   Speakername: {fileID: 1193204194}
   Dialoguebox: {fileID: 570998831}
-  TextSpeed: 25
+  TextSpeed: 100000
 --- !u!1 &1193204192
 GameObject:
   m_ObjectHideFlags: 0
@@ -1213,8 +1287,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
