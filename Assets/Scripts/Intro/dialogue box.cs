@@ -4,6 +4,7 @@ using UniRx;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class dialoguebox : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class dialoguebox : MonoBehaviour
     public Image Speakerfacedisplay;
     public Image Boxinner;
     public Image Boxouter;
+    public Image faceplate;
+    public Image nameplate;
     public Image Skipthing;
     public GameObject intro1;
     public GameObject intro2;
@@ -44,27 +47,47 @@ public class dialoguebox : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && canskip)
         {
             dialogueindex++;
-            if (dialogueindex==4)
+            if (dialogueindex==2)
             {                
                 intro1.SetActive(false);
                 intro2.SetActive(true);
             }
-            if (dialogueindex==11)
+            if (dialogueindex==8)
             {
                 intro2.SetActive(false);
                 intro3.SetActive(true);
             }
 
-            //if (dialogueindex== dialogueSegments.Length)
-            //{
-            //    intro1.SetActive(false);
-            //    return;
-            //}
+            if (dialogueindex==13)
+            {
+                intro3.SetActive(false);
+                intro4.SetActive(true);
+            }
+
+            if (dialogueindex==20)
+            {
+                intro4.SetActive(false);
+                intro5.SetActive(true);
+            }
+
+            if (dialogueindex==23)
+            {
+                intro5.SetActive(false);
+                intro6.SetActive(true);
+            }
+
+            if (dialogueindex== dialogueSegments.Length)
+            {
+                SceneManager.LoadScene("Steale's scene");
+                intro1.SetActive(false);
+               return;
+            }
 
             Setstyle(dialogueSegments[dialogueindex].speaker);
             StartCoroutine(PlayDialogue(dialogueSegments[dialogueindex].dialogue));
         }
     }
+
 
     void Setstyle(subject Speaker)
     {
@@ -81,6 +104,8 @@ public class dialoguebox : MonoBehaviour
         Boxinner.color = Speaker.innerColor;
         Boxouter.color = Speaker.borderColor;
         Speakername.SetText(Speaker.subjectname);
+        //Speakername.color = Speaker.nameplate;
+        //Speakerfacedisplay.color = Speaker.faceplate;
     }
 
     IEnumerator PlayDialogue(string Dialogue)
