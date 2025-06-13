@@ -10,6 +10,7 @@ public class MyButtonHandler : MonoBehaviour
     private void Start()
     {
         StartButton.onClick.AddListener(ClickStartButton);
+        
     }
 
     private void ClickStartButton()
