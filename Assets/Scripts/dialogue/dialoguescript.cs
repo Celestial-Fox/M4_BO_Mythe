@@ -6,7 +6,8 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class dialoguebox : MonoBehaviour
+
+public class dialoguescript : MonoBehaviour
 {
 
     public DialogueSegment[] dialogueSegments;
@@ -23,8 +24,6 @@ public class dialoguebox : MonoBehaviour
     public GameObject intro4;
     public GameObject intro5;
     public GameObject intro6;
-    public GameObject intro7;
-    public GameObject intro8;
     [Space]
     public TextMeshProUGUI Speakername;
     public TextMeshProUGUI Dialoguebox;
@@ -49,52 +48,13 @@ public class dialoguebox : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && canskip)
         {
             dialogueindex++;
-            if (dialogueindex==2)
-            {                
-                intro1.SetActive(false);
-                intro2.SetActive(true);
-            }
-            if (dialogueindex==8)
-            {
-                intro2.SetActive(false);
-                intro3.SetActive(true);
-            }
 
-            if (dialogueindex==13)
-            {
-                intro3.SetActive(false);
-                intro4.SetActive(true);
-            }
 
-            if (dialogueindex==20)
-            {
-                intro4.SetActive(false);
-                intro5.SetActive(true);
-            }
-
-            if (dialogueindex==23)
-            {
-                intro5.SetActive(false);
-                intro6.SetActive(true);
-            }
-
-            if (dialogueindex==27)
-            {
-                intro6.SetActive(false);
-                intro7.SetActive(true);
-            }
-
-            if (dialogueindex==37)
-            {
-                intro7.SetActive(false);
-                intro8.SetActive(true);
-            }
-
-            if (dialogueindex== dialogueSegments.Length)
+            if (dialogueindex == dialogueSegments.Length)
             {
                 SceneManager.LoadScene("Steale's scene");
                 intro1.SetActive(false);
-               return;
+                return;
             }
 
             Setstyle(dialogueSegments[dialogueindex].speaker);
@@ -109,8 +69,8 @@ public class dialoguebox : MonoBehaviour
         {
             Speakerfacedisplay.color = new Color(0, 0, 0, 0);
         }
-        else 
-        { 
+        else
+        {
             Speakerfacedisplay.sprite = Speaker.face;
             Speakerfacedisplay.color = Color.white;
         }
@@ -137,10 +97,5 @@ public class dialoguebox : MonoBehaviour
     }
 }
 
-[System.Serializable]
-public class DialogueSegment
-{
-    public string dialogue;
-    public subject speaker;
 
-}
+
