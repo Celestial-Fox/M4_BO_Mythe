@@ -92,7 +92,7 @@ public class dialoguebox : MonoBehaviour
 
             if (dialogueindex== dialogueSegments.Length)
             {
-                SceneManager.LoadScene("Steale's scene");
+                SceneManager.LoadScene(2);
                 intro1.SetActive(false);
                return;
             }

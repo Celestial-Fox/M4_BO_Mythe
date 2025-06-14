@@ -14,6 +14,6 @@ public class MyButtonHandler : MonoBehaviour
 
     private void ClickStartButton()
     {
-        SceneManager.LoadScene("Julian scene");
+        SceneManager.LoadScene(0);
     }
 }
