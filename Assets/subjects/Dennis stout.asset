@@ -15,4 +15,4 @@ MonoBehaviour:
   subjectname: Dennis
   borderColor: {r: 1, g: 1, b: 1, a: 1}
   innerColor: {r: 1, g: 1, b: 1, a: 1}
-  face: {fileID: 21300000, guid: 23836fd87e04bd049a19689dfcdaab02, type: 3}
+  face: {fileID: 21300000, guid: dbd82da3d66b56d49a7b146cfb7a60f0, type: 3}
