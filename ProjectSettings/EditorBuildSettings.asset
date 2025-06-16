@@ -6,12 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Julian scene.unity
+    path: Assets/Scenes/Main menu.unity
     guid: fb05fd427952dfc4eaac642dc0ae6108
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 69a7d975b5793314fa56236bf3e04821
+  - enabled: 1
+    path: Assets/Scenes/beachenpause.unity
+    guid: 64403c34ad2fe3a40ba19acc932c06d4
   - enabled: 1
     path: Assets/Scenes/Steale's Scene.unity
     guid: 8df764526a10bc743a0a885d997c83cc
   - enabled: 1
     path: Assets/Scenes/GoonerScene.unity
     guid: d5011b2c42b79c34dbdfdc1fa016e77a
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: a9f6620132c4af9479a00416d2b2ce0d
   m_configObjects: {}
