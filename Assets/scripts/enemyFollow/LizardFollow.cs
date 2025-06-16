@@ -5,30 +5,26 @@ using UnityEngine;
 public class LizardFollow : MonoBehaviour
 {
     public GameObject player;
-    public float speed;
-    private float distanceBetween;
+    public float speed = 2f;
+    public float distanceBetween = 10f;
 
-    private float distance;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        distance = Vector2.Distance(transform.position, player.transform.position);
-        Vector2 direction = player.transform.position - transform.position;
-        direction.Normalize();
-        float angle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg;
+        if (player == null)
+        {
+            Debug.LogWarning("Player not assigned in LizardFollow script.");
+            return;
+        }
 
-      
+        float distance = Vector2.Distance(transform.position, player.transform.position);
 
         if (distance < distanceBetween)
         {
-            transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
-            transform.rotation = Quaternion.Euler(Vector3.forward * angle);
+            Vector2 direction = (player.transform.position - transform.position).normalized;
+            transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
+
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(0, 0, angle);
         }
     }
 }
