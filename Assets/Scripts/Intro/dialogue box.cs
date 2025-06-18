@@ -17,6 +17,8 @@ public class dialoguebox : MonoBehaviour
     public Image faceplate;
     public Image nameplate;
     public Image Skipthing;
+    [Space]
+    public GameObject skiptext;
     public GameObject intro1;
     public GameObject intro2;
     public GameObject intro3;
@@ -42,12 +44,22 @@ public class dialoguebox : MonoBehaviour
         StartCoroutine(PlayDialogue(dialogueSegments[0].dialogue));
     }
 
+    public void ClickStartButton()
+    {
+        SceneManager.LoadScene(2);
+    }
+
     // Update is called once per frame
     void Update()
     {
         Skipthing.enabled = canskip;
         if (Input.GetKeyDown(KeyCode.Space) && canskip)
         {
+            if (dialogueindex == 0)
+            {
+                skiptext.SetActive(false);
+            }
+
             dialogueindex++;
             if (dialogueindex==2)
             {                
