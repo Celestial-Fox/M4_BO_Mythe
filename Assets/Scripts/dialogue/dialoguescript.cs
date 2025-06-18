@@ -41,6 +41,8 @@ public class dialoguescript : MonoBehaviour
         StartCoroutine(PlayDialogue(dialogueSegments[0].dialogue));
     }
 
+
+
     // Update is called once per frame
     void Update()
     {
