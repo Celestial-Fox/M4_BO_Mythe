@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,448 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Pele_Entrance_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1580
+        width: 634
+        height: 790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2deda37bff8bb8e4fbf41c3eda04dee4
+      internalID: 1395505979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Entrance_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1580
+        width: 634
+        height: 790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30fc7a2b6fd1514db4ad8874d430bff
+      internalID: 104470348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Entrance_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 1580
+        width: 634
+        height: 790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a547c1ab0c3b7408dc95f1809f74da
+      internalID: 1970802829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Entrance_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 1580
+        width: 634
+        height: 790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7637300d86dc8b24298de5f009b90ce9
+      internalID: 538582641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Entrance_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2536
+        y: 1580
+        width: 634
+        height: 790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3220c0cfc7f2a499fc0d1250dc8899
+      internalID: 1423284822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Entrance_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 1580
+        width: 634
+        height: 790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3051095095225142abe9047d8b28235
+      internalID: 1103526502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Entrance_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3804
+        y: 1580
+        width: 634
+        height: 790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36eb249dbc87fa4baf7933ed5db730f
+      internalID: -1042239836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Entrance_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 4438
+        y: 1580
+        width: 634
+        height: 790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f1c30b5ab566249a65614d4c9d04c0
+      internalID: -1347439136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Entrance_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 5072
+        y: 1580
+        width: 634
+        height: 790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d33e1a5f6b2954895009fab93d37cc
+      internalID: -382860993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Entrance_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 5706
+        y: 1580
+        width: 634
+        height: 790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebcd9d0cc636ba4db5296d6ae2edd32
+      internalID: -301095439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Entrance_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 790
+        width: 634
+        height: 790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fcb1a9e2cc2d741ada93b8bdd19758
+      internalID: 1546613326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Entrance_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 790
+        width: 634
+        height: 790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96917f46a6c3c664c9f4b040259f6767
+      internalID: -1206481359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Entrance_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 790
+        width: 634
+        height: 790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff51227356ff67489aae720adba2bb3
+      internalID: 703063011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Entrance_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 790
+        width: 634
+        height: 790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fe48214f2727d48bf0b559ccab5c6e
+      internalID: -961916449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Entrance_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2536
+        y: 790
+        width: 634
+        height: 790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786548c825b31fd459926f92ec02b3e0
+      internalID: 783567918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Entrance_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 790
+        width: 634
+        height: 790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cd8a0f087d370409cd23e994241eb5
+      internalID: 2026748435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Entrance_Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 3804
+        y: 790
+        width: 634
+        height: 790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010919182a921b44796e8abd30018896
+      internalID: 760676154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Entrance_Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 4438
+        y: 790
+        width: 634
+        height: 790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98ed3949209f674d8001ccc289143fc
+      internalID: 378290645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Entrance_Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 5072
+        y: 790
+        width: 634
+        height: 790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61cc2bc5957ab9247bf31af5eff74170
+      internalID: -1563354814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Entrance_Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 5706
+        y: 790
+        width: 634
+        height: 790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a209714085a66674facb0dcaffece638
+      internalID: 1466957190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Entrance_Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 634
+        height: 790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8a02667a861da488203904a2f48fcb
+      internalID: -1741206565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +547,30 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pele_Entrance_Spritesheet_0: 1395505979
+      Pele_Entrance_Spritesheet_1: 104470348
+      Pele_Entrance_Spritesheet_10: 1546613326
+      Pele_Entrance_Spritesheet_11: -1206481359
+      Pele_Entrance_Spritesheet_12: 703063011
+      Pele_Entrance_Spritesheet_13: -961916449
+      Pele_Entrance_Spritesheet_14: 783567918
+      Pele_Entrance_Spritesheet_15: 2026748435
+      Pele_Entrance_Spritesheet_16: 760676154
+      Pele_Entrance_Spritesheet_17: 378290645
+      Pele_Entrance_Spritesheet_18: -1563354814
+      Pele_Entrance_Spritesheet_19: 1466957190
+      Pele_Entrance_Spritesheet_2: 1970802829
+      Pele_Entrance_Spritesheet_20: -1741206565
+      Pele_Entrance_Spritesheet_21: 515014842
+      Pele_Entrance_Spritesheet_22: -67420263
+      Pele_Entrance_Spritesheet_3: 538582641
+      Pele_Entrance_Spritesheet_4: 1423284822
+      Pele_Entrance_Spritesheet_5: 1103526502
+      Pele_Entrance_Spritesheet_6: -1042239836
+      Pele_Entrance_Spritesheet_7: -1347439136
+      Pele_Entrance_Spritesheet_8: -382860993
+      Pele_Entrance_Spritesheet_9: -301095439
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
