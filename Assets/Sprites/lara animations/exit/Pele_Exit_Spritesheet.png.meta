@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,637 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2e1b472ce6fd6458cf2f766fbc4e4d
+      internalID: 883481616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1600
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306c5243282ca884b95d475f92462275
+      internalID: -1399157861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1600
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ddb8a025e4ede4aac88f0568426a01
+      internalID: 1690587456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 1600
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91143b251c865e4a86eeb8353ee0fdf
+      internalID: -569163416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 1600
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99252e3ab9e5c66489a1584dba4ca410
+      internalID: 985024493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 1600
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d93bc15ffdb36547bf9f05318b15d78
+      internalID: 1049231535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 1600
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f406f8dd3a97124eaeeca4924e35bb0
+      internalID: -481454628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 4452
+        y: 1600
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af4367c3d450ca41afe51f1747660a0
+      internalID: 2095166177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 5088
+        y: 1600
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60e62fd555346e46a99d9294d190b5a
+      internalID: -1176194132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 5724
+        y: 1600
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600b733c637fa794789a2687e349f3c3
+      internalID: -348000339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e90a2dfc17bc14fa2a11294c348ac0
+      internalID: 513585227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 800
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece99d40e5154c14f90747060771495f
+      internalID: 1923638107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 800
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2303be1f34da348b07cfc7ee5f2ac6
+      internalID: -759771136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 800
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b6cd2fccfb73f4290089632320a370
+      internalID: 469729704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 800
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9751d2add5eebfa409b136a0f79dca94
+      internalID: -1454940137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 800
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9764eb363064cb84d80c6aaa9c04661d
+      internalID: -740207410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 800
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5400ea08b12308f4f9c58f1fab8a283f
+      internalID: 469946963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 4452
+        y: 800
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe7fb3823fe6f04287efdcfea6e1535
+      internalID: -1801526725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 5088
+        y: 800
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335339a4afb14a8469dcce19ed3883b5
+      internalID: -929409843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 5724
+        y: 800
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dea1b9ce1fe3cd4f9cfc2600b3d1be9
+      internalID: 1143073756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d5928b745c0eb43989ae8193b1ee9c
+      internalID: -1647283035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 0
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778984fa01c185f4083b096147c1fb9e
+      internalID: 1885352103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 0
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4496517f9a9dd4e94d95b1639b8629
+      internalID: 1175765315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 0
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68daa20bb357bf04aa07d7c2c9a800c5
+      internalID: -1913554045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 0
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b80d8c8b8a4d1a4383d62c5857db020
+      internalID: -1288665861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 0
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453c151f47e12ee47a9e7a26c6ccf953
+      internalID: -1826351865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 0
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8211831557477864b9f7c4ae0099a080
+      internalID: -1514611622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 4452
+        y: 0
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2f44073a822304da2f8bb6c7a7851a
+      internalID: 2127355803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 5088
+        y: 0
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6361da88770904eaa400052ce4fe89
+      internalID: 746530300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Exit_Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 5724
+        y: 0
+        width: 636
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f5258770cac26468ab466300dbfa0a
+      internalID: -825812458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +736,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pele_Exit_Spritesheet_0: 883481616
+      Pele_Exit_Spritesheet_1: -1399157861
+      Pele_Exit_Spritesheet_10: 513585227
+      Pele_Exit_Spritesheet_11: 1923638107
+      Pele_Exit_Spritesheet_12: -759771136
+      Pele_Exit_Spritesheet_13: 469729704
+      Pele_Exit_Spritesheet_14: -1454940137
+      Pele_Exit_Spritesheet_15: -740207410
+      Pele_Exit_Spritesheet_16: 469946963
+      Pele_Exit_Spritesheet_17: -1801526725
+      Pele_Exit_Spritesheet_18: -929409843
+      Pele_Exit_Spritesheet_19: 1143073756
+      Pele_Exit_Spritesheet_2: 1690587456
+      Pele_Exit_Spritesheet_20: -1647283035
+      Pele_Exit_Spritesheet_21: 1885352103
+      Pele_Exit_Spritesheet_22: 1175765315
+      Pele_Exit_Spritesheet_23: -1913554045
+      Pele_Exit_Spritesheet_24: -1288665861
+      Pele_Exit_Spritesheet_25: -1826351865
+      Pele_Exit_Spritesheet_26: -1514611622
+      Pele_Exit_Spritesheet_27: 2127355803
+      Pele_Exit_Spritesheet_28: 746530300
+      Pele_Exit_Spritesheet_29: -825812458
+      Pele_Exit_Spritesheet_3: -569163416
+      Pele_Exit_Spritesheet_4: 985024493
+      Pele_Exit_Spritesheet_5: 1049231535
+      Pele_Exit_Spritesheet_6: -481454628
+      Pele_Exit_Spritesheet_7: 2095166177
+      Pele_Exit_Spritesheet_8: -1176194132
+      Pele_Exit_Spritesheet_9: -348000339
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

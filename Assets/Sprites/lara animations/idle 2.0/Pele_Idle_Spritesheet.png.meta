@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,469 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Pele_Idle_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1090
+        width: 408
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bcf8fd6d20453498aa21bb12aae289
+      internalID: -1179015440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Idle_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1090
+        width: 408
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97870deb27a3564fb6d19bdec55d1a2
+      internalID: 1681109276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Idle_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1090
+        width: 408
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29983ffe38b619d4fa782a2fdcae8a9f
+      internalID: -2082396289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Idle_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1090
+        width: 408
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf590f66d22b1148a203a39329d9a11
+      internalID: 1290790316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Idle_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1090
+        width: 408
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0007be0507754c741b6e282bb25c5850
+      internalID: -2134609242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Idle_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 1090
+        width: 408
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79935cb5d24b6a2469ea5ef24ae2db17
+      internalID: 2008339036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Idle_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 1090
+        width: 408
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5752cbbb8c105004aa637a17875e7dfa
+      internalID: -451933957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Idle_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 1090
+        width: 408
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4f5030f66f1df4287d4192271d940b
+      internalID: -1250992006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Idle_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 1090
+        width: 408
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c224a022d8b8ac479c27834a61986e7
+      internalID: 900202372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Idle_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 1090
+        width: 408
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b708670c55ce4bf4a92d8dfa46a88dfb
+      internalID: -1257815428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Idle_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 545
+        width: 408
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16cd8fe09d47e845b170f027c82fe07
+      internalID: 1116362468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Idle_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 545
+        width: 408
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af07e817ebc69d4d9371ddbe02c3524
+      internalID: -96369307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Idle_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 545
+        width: 408
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f518259c815ac4882c12c3038d145d
+      internalID: -1657703042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Idle_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 545
+        width: 408
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec1bc030501bc040a4656c30998effd
+      internalID: 1369185277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Idle_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 545
+        width: 408
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f20f5f809386441a2d05072491894b
+      internalID: 851161449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Idle_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 545
+        width: 408
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4926eb0d133d16d4cb08342f0d449fad
+      internalID: -565641991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Idle_Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 545
+        width: 408
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fdde64ce252d943b169fcef261e841
+      internalID: -1104826492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Idle_Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 545
+        width: 408
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731125274e8326446b086ccfccf03560
+      internalID: -1143330659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Idle_Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 545
+        width: 408
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162a0ffc0ff471c49bd7857135acbf36
+      internalID: 2086576787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Idle_Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 545
+        width: 408
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4571c15968ea7498f351ca9421d921
+      internalID: 1156915679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Idle_Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 408
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b7ae4cba6888b4d8012505fb09711e
+      internalID: -1093427690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pele_Idle_Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 408
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58dc6495c0c3a847bcfd40a61cf2650
+      internalID: 397807596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +568,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pele_Idle_Spritesheet_0: -1179015440
+      Pele_Idle_Spritesheet_1: 1681109276
+      Pele_Idle_Spritesheet_10: 1116362468
+      Pele_Idle_Spritesheet_11: -96369307
+      Pele_Idle_Spritesheet_12: -1657703042
+      Pele_Idle_Spritesheet_13: 1369185277
+      Pele_Idle_Spritesheet_14: 851161449
+      Pele_Idle_Spritesheet_15: -565641991
+      Pele_Idle_Spritesheet_16: -1104826492
+      Pele_Idle_Spritesheet_17: -1143330659
+      Pele_Idle_Spritesheet_18: 2086576787
+      Pele_Idle_Spritesheet_19: 1156915679
+      Pele_Idle_Spritesheet_2: -2082396289
+      Pele_Idle_Spritesheet_20: -1093427690
+      Pele_Idle_Spritesheet_21: 397807596
+      Pele_Idle_Spritesheet_22: -1618357869
+      Pele_Idle_Spritesheet_23: 272817459
+      Pele_Idle_Spritesheet_24: 795920037
+      Pele_Idle_Spritesheet_25: -203540910
+      Pele_Idle_Spritesheet_26: 946217816
+      Pele_Idle_Spritesheet_27: 1223808204
+      Pele_Idle_Spritesheet_28: 575771187
+      Pele_Idle_Spritesheet_29: 1349057221
+      Pele_Idle_Spritesheet_3: 1290790316
+      Pele_Idle_Spritesheet_4: -2134609242
+      Pele_Idle_Spritesheet_5: 2008339036
+      Pele_Idle_Spritesheet_6: -451933957
+      Pele_Idle_Spritesheet_7: -1250992006
+      Pele_Idle_Spritesheet_8: 900202372
+      Pele_Idle_Spritesheet_9: -1257815428
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
