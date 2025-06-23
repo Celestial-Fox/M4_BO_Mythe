@@ -15,4 +15,4 @@ MonoBehaviour:
   subjectname: ???
   borderColor: {r: 0.15076533, g: 0.23163162, b: 0.4566037, a: 1}
   innerColor: {r: 0.13253826, g: 0.14490338, b: 0.3207547, a: 1}
-  face: {fileID: 21300000, guid: c7ae6947d9dcd8143a166809fdbc64dd, type: 3}
+  face: {fileID: 21300000, guid: 6beb7f66d91db0b4f9783d61c6755cd5, type: 3}

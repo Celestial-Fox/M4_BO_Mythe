@@ -18,12 +18,6 @@ public class dialoguescript : MonoBehaviour
     public Image faceplate;
     public Image nameplate;
     public Image Skipthing;
-    public GameObject intro1;
-    public GameObject intro2;
-    public GameObject intro3;
-    public GameObject intro4;
-    public GameObject intro5;
-    public GameObject intro6;
     [Space]
     public TextMeshProUGUI Speakername;
     public TextMeshProUGUI Dialoguebox;
@@ -55,7 +49,6 @@ public class dialoguescript : MonoBehaviour
             if (dialogueindex == dialogueSegments.Length)
             {
                 SceneManager.LoadScene("Steale's scene");
-                intro1.SetActive(false);
                 return;
             }
 
