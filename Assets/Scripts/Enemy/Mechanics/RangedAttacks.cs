@@ -5,7 +5,11 @@ public class RangedAttacks : MonoBehaviour
     [SerializeField] GameObject bullet;
     [SerializeField] Transform bulletPos;
 
-    private float timer;
+    public PeleBounce peleBounce;
+    [SerializeField] private float health;
+
+    private float cooldown = 2;
+    private float shootTime;
     void Start()
     {
         
@@ -13,12 +17,24 @@ public class RangedAttacks : MonoBehaviour
 
     void Update()
     {
-        timer += Time.deltaTime;
+        health = peleBounce.health;
 
-        if (timer > 2) 
+        shootTime += Time.deltaTime;
+
+        if (shootTime > cooldown) 
         {
-            timer = 0;
+            shootTime = 0;
             shoot();
+        }
+
+        if (health == 100)
+        {
+            cooldown = 1;
+        }
+
+        if (health <= 50)
+        {
+            cooldown = 0.5f;
         }
     }
 

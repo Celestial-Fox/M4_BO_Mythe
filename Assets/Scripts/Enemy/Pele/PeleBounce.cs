@@ -1,11 +1,15 @@
 using System.Collections;
+using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class bounce : MonoBehaviour
+public class PeleBounce : MonoBehaviour
 {
     [SerializeField] private float pushForce = 10f;
     [SerializeField] private GameObject rig;
-    [SerializeField] private float health = 40;
+    public float health = 200;
+
+    public AnimationClip myAnimationClip;
 
     private IEnumerator OnCollisionEnter2D(Collision2D collision)
     {
@@ -29,10 +33,11 @@ public class bounce : MonoBehaviour
         if (collision.gameObject.CompareTag("PlayerBullet"))
         {
             health -= 20;
-            if(health <= 0)
-            { 
-                Destroy(gameObject); 
-            }
+            
         }
+    }
+    private void Update()
+    {
+            
     }
 }
