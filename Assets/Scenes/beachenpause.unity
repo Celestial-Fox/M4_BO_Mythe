@@ -1771,7 +1771,7 @@ MonoBehaviour:
   - {fileID: 1621861052}
   hazards:
   - {fileID: 7776915592227545168, guid: bdc31ccf950e9674182c78071f66f940, type: 3}
-  timeBtwSpawn: 0
+  timeBtwSpawn: 3
 --- !u!4 &1162213396
 Transform:
   m_ObjectHideFlags: 0

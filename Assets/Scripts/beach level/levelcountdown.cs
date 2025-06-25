@@ -17,6 +17,10 @@ public class levelcountdown : MonoBehaviour
     public GameObject spawner7;
     public GameObject spawner8;
 
+    private void Start()
+    {
+        Spawner.startTimeBtwSpawn = 3;
+    }
     void Update()
     {
         if (Remainingtime > 0)
