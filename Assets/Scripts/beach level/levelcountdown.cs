@@ -19,7 +19,7 @@ public class levelcountdown : MonoBehaviour
 
     private void Start()
     {
-        Spawner.startTimeBtwSpawn = 3;
+        Spawner.startTimeBtwSpawn = 2;
     }
     void Update()
     {
@@ -38,6 +38,7 @@ public class levelcountdown : MonoBehaviour
         { 
             spawner1.SetActive(true);
             spawner2.SetActive(true);
+            Spawner.startTimeBtwSpawn = 1;
 
         }
 

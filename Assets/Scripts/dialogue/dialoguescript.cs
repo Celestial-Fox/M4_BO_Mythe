@@ -35,6 +35,11 @@ public class dialoguescript : MonoBehaviour
         StartCoroutine(PlayDialogue(dialogueSegments[0].dialogue));
     }
 
+    public void skipbutton()
+    {
+        SceneManager.LoadScene(3);
+    }
+
 
 
     // Update is called once per frame
