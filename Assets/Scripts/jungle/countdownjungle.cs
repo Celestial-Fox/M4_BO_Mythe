@@ -47,7 +47,7 @@ public class countdownjungle : MonoBehaviour
         if (Remainingtime < 0)
         {
             Remainingtime = 0;
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(7);
         }
         int minutes = Mathf.FloorToInt(Remainingtime / 60);
         int seconds = Mathf.FloorToInt(Remainingtime % 60);

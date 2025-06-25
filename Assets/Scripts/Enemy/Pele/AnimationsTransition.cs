@@ -74,7 +74,7 @@ public class AnimationsTransition : MonoBehaviour
             Debug.Log("Ded");
             Destroy(gameObject);
             lavaRing.SetActive(true);
-            SceneManager.LoadScene("Main menu");
+            SceneManager.LoadScene(8);
         }
     }
 

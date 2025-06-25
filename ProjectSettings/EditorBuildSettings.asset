@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/jungle.unity
     guid: 3d642ec2b49e99146bf8e7dce734074c
+  - enabled: 1
+    path: Assets/Scenes/Dialogue scene.unity
+    guid: 4e1a383ea9f6ff94e80a9156063d9c24
+  - enabled: 1
+    path: Assets/Scenes/The end.unity
+    guid: acf9e9041de65e44485d94917d2c6ca0
   m_configObjects: {}
