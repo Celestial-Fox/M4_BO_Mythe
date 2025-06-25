@@ -680,6 +680,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2910119056151823711, guid: bdc31ccf950e9674182c78071f66f940, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240399227404544527, guid: bdc31ccf950e9674182c78071f66f940, type: 3}
+      propertyPath: m_Size.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240399227404544527, guid: bdc31ccf950e9674182c78071f66f940, type: 3}
+      propertyPath: m_Size.y
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240399227404544527, guid: bdc31ccf950e9674182c78071f66f940, type: 3}
+      propertyPath: m_Offset.y
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7406311012167584117, guid: bdc31ccf950e9674182c78071f66f940, type: 3}
       propertyPath: playerHealth
       value: 
