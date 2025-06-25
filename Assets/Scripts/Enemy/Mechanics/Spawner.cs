@@ -6,7 +6,7 @@ public class Spawner : MonoBehaviour
     [SerializeField] private GameObject[] hazards;
 
     [SerializeField] private float timeBtwSpawn;
-    [SerializeField] private float startTimeBtwSpawn = 5;
+    [SerializeField] public static int startTimeBtwSpawn = 5;
 
 
 
