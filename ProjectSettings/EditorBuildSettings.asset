@@ -32,4 +32,31 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/The end.unity
     guid: acf9e9041de65e44485d94917d2c6ca0
+  - enabled: 1
+    path: Assets/Scenes/0_LoadingScene.unity
+    guid: 98b029c575a561549a73ff984ead6556
+  - enabled: 1
+    path: Assets/Scenes/1_LoadingScene.unity
+    guid: 0364906f544372649aaf97a8b763ed46
+  - enabled: 1
+    path: Assets/Scenes/2_LoadingScene.unity
+    guid: 04605a5134e63a64993fc673a17e6e17
+  - enabled: 1
+    path: Assets/Scenes/3_LoadingScene.unity
+    guid: 6d62dbfdfec528a489859b3ab2c35ee3
+  - enabled: 1
+    path: Assets/Scenes/4_LoadingScene.unity
+    guid: f3590033af693904d8a93fdd21da4769
+  - enabled: 1
+    path: Assets/Scenes/5_LoadingScene.unity
+    guid: 993e5842cddb8564aa4fddedf51c70e6
+  - enabled: 1
+    path: Assets/Scenes/6_LoadingScene.unity
+    guid: 9c36738da70eade458abede5fc058fed
+  - enabled: 1
+    path: Assets/Scenes/7_LoadingScene.unity
+    guid: 9ff25c35657c9f44db032d016033dcad
+  - enabled: 1
+    path: Assets/Scenes/8_LoadingScene.unity
+    guid: bc33202cf48cc00448ba3602efaf16dd
   m_configObjects: {}

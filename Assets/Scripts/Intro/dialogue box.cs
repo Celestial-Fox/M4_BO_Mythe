@@ -46,7 +46,7 @@ public class dialoguebox : MonoBehaviour
 
     public void ClickStartButton()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(11);
     }
 
     // Update is called once per frame
@@ -104,7 +104,7 @@ public class dialoguebox : MonoBehaviour
 
             if (dialogueindex== dialogueSegments.Length)
             {
-                SceneManager.LoadScene(2);
+                SceneManager.LoadScene(11);
                 intro1.SetActive(false);
                return;
             }

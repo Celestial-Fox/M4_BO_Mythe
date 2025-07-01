@@ -37,7 +37,7 @@ public class dialoguescript : MonoBehaviour
 
     public void skipbutton()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(12);
     }
 
 
@@ -53,7 +53,7 @@ public class dialoguescript : MonoBehaviour
 
             if (dialogueindex == dialogueSegments.Length)
             {
-                SceneManager.LoadScene("Steale's scene");
+                SceneManager.LoadScene(12);
                 return;
             }
 
