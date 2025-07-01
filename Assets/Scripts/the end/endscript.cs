@@ -19,10 +19,19 @@ public class endscript : MonoBehaviour
     public Image nameplate;
     public Image Skipthing;
     [Space]
+    public GameObject end1;
+    public GameObject end2;
+    public GameObject end3;
+    public GameObject end4;
+    public GameObject end5;
+    public GameObject end6;
+    [Space]
     public TextMeshProUGUI Speakername;
     public TextMeshProUGUI Dialoguebox;
     [Space]
     public float TextSpeed;
+    public AudioSource happymusic;
+    public AudioSource sadmusic;
 
     private bool canskip;
     private int dialogueindex;
@@ -44,6 +53,38 @@ public class endscript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && canskip)
         {
             dialogueindex++;
+            if (dialogueindex == 3)
+                {
+                end1.SetActive(false);
+                end2.SetActive(true);
+            }
+
+            if (dialogueindex == 10)
+            {
+                end2.SetActive(false);
+                end3.SetActive(true);
+            }
+
+            if (dialogueindex == 12)
+            {
+                end3.SetActive(false);
+                end4.SetActive(true);
+                happymusic.mute = true;
+                sadmusic.mute = false;
+
+            }
+
+            if (dialogueindex == 15)
+            {
+                end4.SetActive(false);
+                end6.SetActive(true);
+            }
+
+            if (dialogueindex == 22)
+            {
+                end6.SetActive(false);
+                end5.SetActive(true);
+            }
 
 
             if (dialogueindex == dialogueSegments.Length)

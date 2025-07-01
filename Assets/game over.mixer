@@ -20,6 +20,20 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!244 &-6361636159619429103
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: e043247fac320d04b873db9b5e6f64d9
+  m_EffectName: Attenuation
+  m_MixLevel: 22d187425061dc74a9967d3df678adcf
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!244 &-6158402424892584432
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -72,6 +86,25 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!243 &-817353267539767032
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: actual music
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 2db6137b6795d144c820ac0cc38d41ab
+  m_Children: []
+  m_Volume: 6fd1bbaddcaa8634b8fd6b23836fee41
+  m_Pitch: 14f65886737ac37428ef2c7083de3c78
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -6361636159619429103}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
 --- !u!241 &24100000
 AudioMixerController:
   m_ObjectHideFlags: 0
@@ -92,6 +125,7 @@ AudioMixerController:
   - guids:
     - 1b854e51e3b572c40b5a63c0feab8994
     - 81c7af60065896940b135a864581a295
+    - 2db6137b6795d144c820ac0cc38d41ab
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -106,6 +140,7 @@ AudioMixerGroupController:
   m_GroupID: 1b854e51e3b572c40b5a63c0feab8994
   m_Children:
   - {fileID: 5574355199625121279}
+  - {fileID: -817353267539767032}
   m_Volume: be3bc83dd43770349a399fcb1d4478eb
   m_Pitch: bcb91f9347c026345b2732433aab70ee
   m_Send: 00000000000000000000000000000000
@@ -155,12 +190,13 @@ AudioMixerSnapshotController:
     871133b7b5b18404f9b8c7089942400d: 10458
     f456e5d8b629fe34b8858197d655406c: 3
     71900a29f0412134588eb05c6875ef81: 98
-    0941c6597849bc54e9fd37b0f475505d: 1
+    0941c6597849bc54e9fd37b0f475505d: -21.2465
     a9ab594ab4091994aba354e962b9f169: 0
     ed78f54bd90e5ce44a4b960d3bb42636: 0.154
     1426ee8bdfd1df2408c13fb311fbe9f6: 10
     2aa9039c8334cc945bbe8782a87a7575: 0.075
     8cc873dcc9e0c2b4b9e476b0dffbcd93: 0
+    6fd1bbaddcaa8634b8fd6b23836fee41: -9.73219
     5dd3a82e8e2438f40abaa440ff54f18e: 1
     6d14aa2f4dfab7a4cb6662cd0ccf3f2a: 38
     62c50e6f1bc13b34f834a3a618b7fea4: 100000
