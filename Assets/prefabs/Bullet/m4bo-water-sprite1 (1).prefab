@@ -128,6 +128,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 100
   lifetime: 3
+  pickUp: {fileID: 7523836149111040846, guid: 0a35a85fe5ae24b40ad8ac976767ab04, type: 3}
+  bulletPos: {fileID: 5626562377755181023}
 --- !u!61 &7159401103189679540
 BoxCollider2D:
   m_ObjectHideFlags: 0

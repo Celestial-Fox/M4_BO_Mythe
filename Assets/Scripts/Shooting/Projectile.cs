@@ -12,6 +12,10 @@ namespace TopDown.Shooting
         private Rigidbody2D body;
         private float lifeTimer;
 
+        [SerializeField] GameObject pickUp;
+        [SerializeField] Transform bulletPos;
+
+        private int randomNumber;
         private void Awake()
         {
             body = GetComponent<Rigidbody2D>();
@@ -40,6 +44,14 @@ namespace TopDown.Shooting
         private void OnCollisionEnter2D(Collision2D collision)
         {
             Destroy(gameObject);
+            if (collision.gameObject.CompareTag("Enemy"))
+            {
+                randomNumber = Random.Range(1,10);
+                if (randomNumber <= 2)
+                {
+                    Instantiate(pickUp, bulletPos.position, Quaternion.identity);
+                }
+            }
         }
 
 

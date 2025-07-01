@@ -26,8 +26,6 @@ namespace TopDown.Shooting
             {
                 GameObject bullet = Instantiate(bulletPrefab, firepoint.position, firepoint.rotation, null);
                 bullet.GetComponent<Projectile>().ShootBullet(firepoint);
-                //muzzleFlashAnimator.SetTrigger("Shoot");
-                Debug.Log("Shot!");
                 cooldownTimer = 0;
             }
         }
