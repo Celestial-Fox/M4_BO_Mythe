@@ -38,7 +38,7 @@ public class countdownjungle : MonoBehaviour
 
         if (Remainingtime < 30)
         {
-            Spawner.startTimeBtwSpawn = 0.25f;
+            Spawner.startTimeBtwSpawn = 0.5f;
         }
 
         if (Remainingtime < 0)

@@ -27,13 +27,24 @@ public class RangedAttacks : MonoBehaviour
             shoot();
         }
 
+        if (health <= 200)
+        {
+            Spawner.startTimeBtwSpawn = 30;
+        }
+
+        if (health <= 180)
+        {
+            Spawner.startTimeBtwSpawn = 3;
+        }
+
         if (health == 100)
         {
             cooldown = 1;
         }
 
         if (health <= 50)
-        {
+        {   
+            Spawner.startTimeBtwSpawn = 2f;
             cooldown = 0.5f;
         }
     }

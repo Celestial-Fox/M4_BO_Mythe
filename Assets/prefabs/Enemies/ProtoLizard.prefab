@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  speed: 45
+  speed: 35
 --- !u!114 &4354915881248067641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,7 +131,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7476615789092020189}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89c32177958f9d94d8a96c1f1e158884, type: 3}
   m_Name: 
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pushForce: 10
   rig: {fileID: 7650777248965109749}
-  health: 20
+  health: 200
 --- !u!212 &1861930105205707467
 SpriteRenderer:
   m_ObjectHideFlags: 0
